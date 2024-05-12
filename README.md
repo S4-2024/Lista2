@@ -20,8 +20,8 @@
 
 <p style="text-align: justify">
  
- Basicamente, a Indução Matemática é uma prova matemática para demostrar a verdade de um número infinito de proposições.
-A forma mais simples de se fazer isso é provar que um enunciado vale para todos os números naturais n e consiste em dois passos:
+ Basicamente, a Indução Matemática é uma prova matemática para demonstrar a verdade de um número infinito de proposições.
+A forma mais simples de se fazer isso é provar que um enunciado vale para todos os números naturais $n$ e consiste em dois passos:
 
 1. A base: descobrir que o enunciado vale para $n = 0$, ou $n=1$ , dependendo da definição utilizada de $N$;
 
