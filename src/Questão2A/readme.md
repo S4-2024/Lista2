@@ -1,4 +1,4 @@
-<img src="https://github.com/S4-2024/Lista2/blob/main/arquivos/8.png">
+<img src="https://github.com/S4-2024/Lista2/blob/main/arquivos/9.png">
 <h1 align="center" > 🩷 Indução  🩷 </h1>
 
 <div align="center">
@@ -8,78 +8,46 @@
 
 <div align="center"> 
   
-### ***Mostre, por indução, a validade da seguinte fórmula:*** 
-
-
-###   $`P(n) = 1² + 2² +  ...  + n² = \frac{ n(n+1)(2n + 1)}{6}`$
-
-
+### ***Resolva a seguinte equação de recorrência por indução:*** 
+### $T(0) = 1$ $T(n) = T(n-1)+2^n, n>0$
 </div>
-
-
 <br>
-
-
-
 
 <p>
 
-Passo 1: Caso Base $(n = 1)$
-
-- Verifique se a fórmula é válida para o caso base, onde $n = 1$.
-
-Passo 2: Hipótese de Indução
-
-- Assuma que a fórmula é verdadeira para algum inteiro $k$, isto é, $P(k) = 1² + 2² + ... + k² = \frac {k(k+1)(2k+1)}{6}$.
-
-
-Passo 3: Passo de Indução
-
-- Mostre que se a fórmula é verdadeira para k, então também é verdadeira para $k + 1$.
+  [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=4000&pause=703&color=F724EB&random=false&width=435&lines=on+working...)](https://git.io/typing-svg)
 </p>
 
-
 <details>
-
 <summary> <h3> ⭐ Code </h3> </summary>
 
 ```
-package Questão1;
+package Questão2A;
+
 import java.util.Scanner;
-public class FormulaInducao {
-    static int somaQuadrados(int n) {
-        return (n * (n + 1) * (2 * n + 1)) / 6;
-    }
 
-    // verificar a validade
-    static boolean validarFormulaPorInducao(int n) {
-        // Caso Base (n = 1)
-        if (n == 1) {
-            return somaQuadrados(n) == 1; // 1² = 1
+public class RecorrenciaInducao {
+    // Método para calcular T(n) usando indução
+    static int calcularT(int n) {
+        if (n == 0) {
+            return 1; // Caso Base
+        } else {
+            return calcularT(n - 1) + (int)Math.pow(2, n);
         }
-        int somaAteK = somaQuadrados(n - 1);
-
-        return somaQuadrados(n) == somaAteK + n * n;
     }
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Escolha o valor de n");
+        System.out.println("Insira o valor de T(n): ");
         int n = sc.nextInt();
 
-        if (validarFormulaPorInducao(n)) {
-            System.out.println("A fórmula é válida para P(" + n + ")" + " = " + somaQuadrados(n));
-        } else {
-            System.out.println("A fórmula não é válida para P(" + n + ")" + " = " + somaQuadrados(n));
-        }
+        int resultado = calcularT(n);
+        System.out.println("O valor de T(" + n + ") é: " + resultado);
     }
 }
 ```
   
 </details>
-
-
-
 
 
 
