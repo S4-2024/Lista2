@@ -15,8 +15,11 @@
 
 
  <h4>🧠 Indução Matemática </h3> 
+
+
+<div style="text-align: justify">
  
-Basicamente, a Indução Matemática é uma prova matemática para demostrar a verdade de um número infinito de proposições.
+ Basicamente, a Indução Matemática é uma prova matemática para demostrar a verdade de um número infinito de proposições.
 A forma mais simples de se fazer isso é provar que um enunciado vale para todos os números naturais n e consiste em dois passos:
 
 1. A base: descobrir que o enunciado vale para $n = 0$, ou $n=1$ , dependendo da definição utilizada de $N$;
@@ -30,5 +33,13 @@ Quando ambas as proposições são demonstradas, é possível concluir que qualq
 1. O primeiro dominó cairá.
 2. Sempre que um dominó cair, seu vizinho imediato também cairá.
 
-Dessa forma, podemos inferir que todos os dominós cairão.
+Dessa forma, podemos inferir que todos os dominós cairão.</div>
 
+<div> 
+ 
+[![questão 1](https://img.shields.io/badge/questão_1-pink?style=for-the-badge&logo=github&logoColor=black)](https://github.com/S4-2024/Lista2/tree/main/src/Quest%C3%A3o1)
+[![questão 2A](https://img.shields.io/badge/questão_2A-pink?style=for-the-badge&logo=github&logoColor=black)](https://github.com/S4-2024/Lista2/tree/main/src/Quest%C3%A3o2A)
+[![questão 2B](https://img.shields.io/badge/questão_2B-pink?style=for-the-badge&logo=github&logoColor=black)](https://github.com/S4-2024/Lista2/tree/main/src/Quest%C3%A3o2B)
+[![questão 2c](https://img.shields.io/badge/questão_2c-pink?style=for-the-badge&logo=github&logoColor=black)](https://github.com/S4-2024/Lista2/tree/main/src/Quest%C3%A3o2C)
+
+</div>
