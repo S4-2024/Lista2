@@ -18,14 +18,6 @@
 ***Tema:*** Esta atividade foca na utilização de indução  matemática para solucionar problemas. <br>
 ***Objetivo:*** Implementar soluções matématicas utilizando lógica de programação em Java.
 
-<br>
-
-
-
-
-
- <h4>  Sobre </h3> 
- 
 <p style="text-align: justify">
  
  Basicamente, a Indução Matemática é uma prova matemática para demostrar a verdade de um número infinito de proposições.
