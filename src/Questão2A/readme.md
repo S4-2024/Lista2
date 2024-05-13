@@ -9,14 +9,16 @@
 <div align="center"> 
   
 ### ***Resolva a seguinte equação de recorrência por indução:*** 
-### $T(0) = 1$ $T(n) = T(n-1)+2^n, n>0$
+### $T(0) = 1$ | $T(n) = T(n-1)+2^n, n>0$
 </div>
 <br>
 
 <p>
 
-  [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=4000&pause=703&color=F724EB&random=false&width=435&lines=on+working...)](https://git.io/typing-svg)
-</p>
+O código implementa a solução de uma equação de recorrência usando um método recursivo. O método calcularT(int n) recebe um parâmetro &n& que representa o índice da função de recorrência $T(n)$.
+  
+Se $n$ é igual a zero, o método retorna 1, caso contrário, ele chama recursivamente calcularT(n - 1) para encontrar $T(n-1)$ e adiciona $2^n$ a esse valor, refletindo a definição da recorrência $T(n) = T(n-1)+2^n$.
+
 
 <details>
 <summary> <h3> ⭐ Code </h3> </summary>
@@ -48,6 +50,13 @@ public class RecorrenciaInducao {
 ```
   
 </details>
+
+
+
+No método principal, o programa solicita ao usuário um valor $n$, calcula $T(n)$ usando o método calcularT(n) e exibe o resultado. Assim, o código resolve a equação de recorrência fornecida e interage com o usuário para obter o valor de $n$.
+</p>
+
+
 
 
 
