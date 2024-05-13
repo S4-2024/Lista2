@@ -2,7 +2,8 @@
 <h1 align="center" > 🩷 Indução  🩷 </h1>
 
 <div align="center">
-  
+
+[![questão 2B](https://img.shields.io/badge/questão_2B-pink?style=for-the-badge&logo=github&logoColor=black)](https://github.com/S4-2024/Lista2/tree/main/src/Quest%C3%A3o2B)
 [![Sobre a Atividade](https://img.shields.io/badge/Sobre_a_Atividade-pink?style=for-the-badge&logo=github&logoColor=brown)](https://github.com/S4-2024/Lista2/tree/main)
 </div>
 
