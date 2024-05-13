@@ -1,4 +1,4 @@
-<img src="https://github.com/S4-2024/Lista2/blob/main/arquivos/9.png">
+<img src="https://github.com/S4-2024/Lista2/blob/main/arquivos/10.png">
 <h1 align="center" > 🩷 Indução  🩷 </h1>
 
 <div align="center">
