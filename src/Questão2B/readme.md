@@ -17,10 +17,11 @@
 <br>
 
 <p>
+O código apresenta uma resolução para a equação de recorrência acima por meio de indução.  A função calcularT recebe três parâmetros: $n$, que representa o índice da função de recorrência, $c$, que é a constante multiplicativa, e $X$, o valor inicial de $T(0)$.
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=4000&pause=703&color=F724EB&random=false&width=435&lines=on+working...)](https://git.io/typing-svg)
+Se $n$ for zero, a função retorna 
+$X$, caso contrário, retorna $c$ multiplicado pelo resultado da chamada recursiva de calcularT com $n−1$, $c$, e $X$. No main, é definido um valor para $n$, $c$, e $X$, e então o resultado é impresso. 
 
-</p>
 
 <details>
 <summary> <h3> ⭐ Code </h3> </summary>
@@ -49,6 +50,15 @@ public class RecorrenciaInducao {
 ```
   
 </details>
+
+
+
+Basicamente, a função calcularT resolve a recorrência definida, multiplicando a constante $c$ pelo valor resultante da chamada recursiva da função com $n−1$ até que $n$ seja zero, retornando então o valor inicial $X$.
+
+
+</p>
+
+
 
 
 
