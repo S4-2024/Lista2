@@ -37,9 +37,15 @@ Quando ambas as proposições são demonstradas, é possível concluir que qualq
 Dessa forma, podemos inferir que todos os dominós cairão.</div>
 
 </p> 
+
+
+ 
+
+
  
 <div align="center">
 
+[![arquivo PDF](https://img.shields.io/badge/arquivo_PDF-white?style=for-the-badge&logo=googledocs)](https://github.com/S4-2024/Lista2/blob/main/arquivos/EDAAA3ListadeExerccios2_20240415175844.pdf)
 [![questão 1](https://img.shields.io/badge/questão_1-B7D3DF?style=for-the-badge&logo=github&logoColor=black)](https://github.com/S4-2024/Lista2/tree/main/src/Quest%C3%A3o1)
 [![questão 2A](https://img.shields.io/badge/questão_2A-B7D3DF?style=for-the-badge&logo=github&logoColor=black)](https://github.com/S4-2024/Lista2/tree/main/src/Quest%C3%A3o2A)
 [![questão 2B](https://img.shields.io/badge/questão_2B-B7D3DF?style=for-the-badge&logo=github&logoColor=black)](https://github.com/S4-2024/Lista2/tree/main/src/Quest%C3%A3o2B)
